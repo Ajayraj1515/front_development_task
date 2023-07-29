@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* Additional Custom CSS */
+
+/* Adjust the hero section height */
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+}
+
+/* Style the hero section text */
+.jumbotron h1 {
+    font-weight: bold;
+    color: #333;
+}
+
+.jumbotron p {
+    color: #666;
+}
+
+/* Style the services section cards */
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p {
+    color: #fff;
+}
+
+/* Smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
+}
